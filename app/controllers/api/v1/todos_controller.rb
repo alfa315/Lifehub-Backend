@@ -21,7 +21,7 @@ class Api::V1::TodosController < ApplicationController
   private
 
   def todo_params
-    params.permit(:user_id, :todo_name, :todo_type, :date_created, :deadline, :completion_date)
+    params.permit(:user_id, :todo_name, :todo_type, :deadline, :todo_description)
   end
 
 end

@@ -19,9 +19,8 @@ ActiveRecord::Schema.define(version: 20171121185550) do
     t.integer "user_id"
     t.string "todo_name"
     t.string "todo_type"
-    t.string "date_created"
+    t.string "todo_description"
     t.string "deadline"
-    t.string "completion_date"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

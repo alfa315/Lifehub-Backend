@@ -4,9 +4,9 @@ class CreateTodos < ActiveRecord::Migration[5.1]
       t.integer :user_id
       t.string :todo_name
       t.string :todo_type
-      t.string :date_created
+      t.string :todo_description
       t.string :deadline
-      t.string :completion_date
+
 
       t.timestamps
     end
