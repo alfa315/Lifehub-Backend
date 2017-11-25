@@ -18,6 +18,11 @@ class Api::V1::TodosController < ApplicationController
     end
   end
 
+  def destroy
+    @todo = Todo.find(params[:id]).destroy
+    head :no_content
+  end
+
   private
 
   def todo_params
