@@ -14,3 +14,25 @@ jules = User.create(username:'j12', first_name:'Jules', last_name: "O'Hagan", zi
 todo1 = Todo.create(user_id: 1, todo_name: 'Go to Movies', todo_type: 'entertainment', todo_description: 'hello, does this work', deadline: '12/15/2017')
 
 todo2 = Todo.create(user_id: 2, todo_name: 'Go to Store', todo_type: 'entertainment', todo_description: 'hello, does this work for second user', deadline: '01/01/2018')
+
+goal1= Goal.create(name: 'GYM' , description: 'Go to the gym.')
+
+goal2= Goal.create(name: 'HELLO STRANGER', description: 'Talk to someone new.')
+
+goal3= Goal.create(name: 'BOOKS', description: 'Find a new book to read.')
+
+goal4= Goal.create(name: 'RUN or WALK', description: 'Go on a run or walk outside.')
+
+goal5= Goal.create(name: 'DONATE', description: 'Donate to a charity.')
+
+goal6= Goal.create(name: 'MASTER CHEF', description: 'Make something new for dinner.')
+
+goal7= Goal.create(name: 'HELLO FRIEND', description: 'Call a friend you have not talked to in a long time.')
+
+goal8= Goal.create(name: 'RELAX', description: 'Do not work, spend time with friends and family.')
+
+goal9= Goal.create(name: 'BRIGHT & EARLY', description: 'Start your day early and wake up an hour earlier tomorrow.')
+
+goal10= Goal.create(name: "KINDNESS" , description: 'Perform a random act of kindness for a stranger')
+
+goal11= Goal.create(name: 'SLEEP', description: 'Go to bed early')
