@@ -7,13 +7,13 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-al = User.create(username:'Alfa315', first_name:'Al', last_name: 'Artesona', zip_code: 07452)
+al = User.create(username:'Alfa315', first_name:'Al', last_name: 'Artesona', location: 'New Jersey')
 
-jules = User.create(username:'j12', first_name:'Jules', last_name: "O'Hagan", zip_code: 07452)
+jules = User.create(username:'j12', first_name:'Jules', last_name: "O'Hagan", location: 'New York')
 
-todo1 = Todo.create(user_id: 1, todo_name: 'Go to Movies', todo_type: 'entertainment', todo_description: 'hello, does this work', deadline: '12/15/2017')
+todo1 = Todo.create(user_id: 1, todo_name: 'Go to Movies', todo_type: 'entertainment', todo_description: 'hello, does this work', deadline: '2017-12-15')
 
-todo2 = Todo.create(user_id: 2, todo_name: 'Go to Store', todo_type: 'entertainment', todo_description: 'hello, does this work for second user', deadline: '01/01/2018')
+todo2 = Todo.create(user_id: 2, todo_name: 'Go to Store', todo_type: 'entertainment', todo_description: 'hello, does this work for second user', deadline: '2018-01-05')
 
 goal1= Goal.create(name: 'GYM' , description: 'Go to the gym.')
 
