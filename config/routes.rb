@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       resources :users, only: [:index, :create, :show]
       resources :todos, only: [:index, :create, :show, :destroy, :update]
       resources :goals, only: [:index, :show]
+      resources :completes, only: [:index, :create, :show, :destroy, :update]
     end
   end
 end
