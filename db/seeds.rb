@@ -13,7 +13,15 @@ jules = User.create(username:'j12', first_name:'Jules', last_name: "O'Hagan", lo
 
 todo1 = Todo.create(user_id: 1, todo_name: 'Go to Movies', todo_type: 'entertainment', todo_description: 'hello, does this work', deadline: '2017-12-15')
 
-todo2 = Todo.create(user_id: 2, todo_name: 'Go to Store', todo_type: 'entertainment', todo_description: 'hello, does this work for second user', deadline: '2018-01-05')
+todo2 = Todo.create(user_id: 2, todo_name: 'Groceries', todo_type: 'Errands', todo_description: 'Go to grocery store', deadline: '2017-12-10')
+
+todo3 = Todo.create(user_id: 2, todo_name: 'Star Wars', todo_type: 'Entertainment', todo_description: 'Seeing the Last Jedi', deadline: '2017-12-15')
+
+todo4 = Todo.create(user_id: 2, todo_name: 'Holiday Shopping', todo_type: 'Errands', todo_description: 'Buying gifts for friends and family', deadline: '2017-12-24')
+
+todo5 = Todo.create(user_id: 2, todo_name: 'NYE', todo_type: 'Social Event', todo_description: 'New Years Eve Festivities ', deadline: '2018-01-01')
+
+todo6 = Todo.create(user_id: 2, todo_name: 'Giants Game', todo_type: 'Social Event', todo_description: 'Eagles at Giants', deadline: '2017-12-17')
 
 goal1= Goal.create(name: 'GYM' , description: 'Go to the gym.')
 
